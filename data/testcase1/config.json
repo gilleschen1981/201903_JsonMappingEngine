@@ -1,0 +1,62 @@
+{
+	"relations": {
+		"nodeToDisk": {
+			"relationType": "composition",
+			"end1Id": "node1",
+			"end2Id": "disk",
+			"condition": null
+		},
+		"nodeToIp": {
+			"relationType": "containment",
+			"end1Id": "node1",
+			"end2Id": "publicIp",
+			"condition": null
+		}
+	},
+	"cis": {
+		"disk": {
+			"classType": "disk_device",
+			"attributes": {
+				"name": "$.Reservations[*].Instances[*].BlockDeviceMappings[*].DeviceName"
+			},
+			"attributesType": {
+				"name": "String"
+			},
+			"attributeTransform": {
+				"name": ""
+			},
+			"condition": null
+		},
+		"publicIp": {
+			"classType": "ip_address",
+			"attributes": {
+				"ip_lease_time": "0",
+				"name": "$.Reservations[*].Instances[*].PublicIpAddress"
+			},
+			"attributesType": {
+				"ip_lease_time": "String",
+				"name": "String"
+			},
+			"attributeTransform": {
+				"name": ""
+			},
+			"condition": null
+		},
+		"node1": {
+			"classType": "node",
+			"attributes": {
+				"cloud_instance_id": "$.Reservations[*].Instances[*].InstanceId",
+				"name": "$.Reservations[*].Instances[*].ImageId"
+			},
+			"attributesType": {
+				"cloud_instance_id": "String",
+				"name": "String"
+			},
+			"attributeTransform": {
+				"cloud_instance_id": "",
+				"name": ""
+			},
+			"condition": null
+		}
+	}
+}

@@ -1,0 +1,346 @@
+{
+	Reservations: [{
+			Groups: [],
+			Instances: [{
+					AmiLaunchIndex: 0,
+					ImageId: ami - 8c1be5f6,
+					InstanceId: i - 0b2e862a43b4f5715,
+					InstanceType: t2.medium,
+					KeyName: CMSADMIN,
+					LaunchTime: Thu May 03 15: 53: 08 CST 2018,
+					Monitoring: {
+						State: disabled
+					},
+					Placement: {
+						AvailabilityZone: us - east - 1b,
+						GroupName: ,
+						Tenancy: default ,
+					},
+					PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+					PrivateIpAddress: 172.31.45.252,
+					ProductCodes: [],
+					PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+					PublicIpAddress: 34.200.32.232,
+					State: {
+						Code: 16,
+						Name: running
+					},
+					StateTransitionReason: ,
+					SubnetId: subnet - b19e47eb,
+					VpcId: vpc - bdaa71c4,
+					Architecture: x86_64,
+					BlockDeviceMappings: [{
+							DeviceName: /dev/xvda,
+							Ebs: {
+								AttachTime: Wed Oct 18 14: 01: 20 CST 2017,
+								DeleteOnTermination: false,
+								Status: attached,
+								VolumeId: vol - 04d4ffd9c45fa2a91
+							}
+						},{
+							DeviceName: /dev/xvda2,
+							Ebs: {
+								AttachTime: Wed Oct 18 14: 01: 20 CST 2017,
+								DeleteOnTermination: false,
+								Status: attached,
+								VolumeId: vol - 04d4ffd9c45fa2a91
+							}
+						}
+					],
+					ClientToken: idhWB1508297161685,
+					EbsOptimized: false,
+					EnaSupport: true,
+					Hypervisor: xen,
+					ElasticGpuAssociations: [],
+					NetworkInterfaces: [{
+							Association: {
+								IpOwnerId: 325880643273,
+								PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+								PublicIp: 34.200.32.232
+							},
+							Attachment: {
+								AttachTime: Wed Oct 18 11: 26: 02 CST 2017,
+								AttachmentId: eni - attach - da80fa18,
+								DeleteOnTermination: true,
+								DeviceIndex: 0,
+								Status: attached
+							},
+							Description: ,
+							Groups: [{
+									GroupName: CMS FTP for SSA,
+									GroupId: sg - 58ac162a
+								}
+							],
+							Ipv6Addresses: [],
+							MacAddress: 0e: 18: f9: 51: 4f: 0c,
+							NetworkInterfaceId: eni - a3c70714,
+							OwnerId: 325880643273,
+							PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+							PrivateIpAddress: 172.31.45.252,
+							PrivateIpAddresses: [{
+									Association: {
+										IpOwnerId: 325880643273,
+										PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+										PublicIp: 34.200.32.232
+									},
+									Primary: true,
+									PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+									PrivateIpAddress: 172.31.45.252
+								}
+							],
+							SourceDestCheck: true,
+							Status: in - use,
+							SubnetId: subnet - b19e47eb,
+							VpcId: vpc - bdaa71c4
+						}
+					],
+					RootDeviceName: /dev/xvda,
+					RootDeviceType: ebs,
+					SecurityGroups: [{
+							GroupName: CMS FTP for SSA,
+							GroupId: sg - 58ac162a
+						}
+					],
+					SourceDestCheck: true,
+					Tags: [{
+							Key: Description,
+							Value: FTP server for SSA,
+							connecting to S3 storage.Need to turn on all the time.
+						}, {
+							Key: Owner,
+							Value: Ben Yue
+						}, {
+							Key: Name,
+							Value: FTP for SSA
+						}
+					],
+					VirtualizationType: hvm
+				},
+				{
+					AmiLaunchIndex: 0,
+					ImageId: ami - 8c1be5f6,
+					InstanceId: i - 1b2e862a43b4f5715,
+					InstanceType: t2.medium,
+					KeyName: CMSADMIN,
+					LaunchTime: Thu May 03 15: 53: 08 CST 2018,
+					Monitoring: {
+						State: disabled
+					},
+					Placement: {
+						AvailabilityZone: us - east - 1b,
+						GroupName: ,
+						Tenancy: default ,
+					},
+					PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+					PrivateIpAddress: 172.31.45.252,
+					ProductCodes: [],
+					PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+					PublicIpAddress: 34.200.32.233,
+					State: {
+						Code: 16,
+						Name: running
+					},
+					StateTransitionReason: ,
+					SubnetId: subnet - b19e47eb,
+					VpcId: vpc - bdaa71c4,
+					Architecture: x86_64,
+					BlockDeviceMappings: [{
+							DeviceName: /dev/xvda,
+							Ebs: {
+								AttachTime: Wed Oct 18 14: 01: 20 CST 2017,
+								DeleteOnTermination: false,
+								Status: attached,
+								VolumeId: vol - 04d4ffd9c45fa2a91
+							}
+						}
+					],
+					ClientToken: idhWB1508297161685,
+					EbsOptimized: false,
+					EnaSupport: true,
+					Hypervisor: xen,
+					ElasticGpuAssociations: [],
+					NetworkInterfaces: [{
+							Association: {
+								IpOwnerId: 325880643273,
+								PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+								PublicIp: 34.200.32.232
+							},
+							Attachment: {
+								AttachTime: Wed Oct 18 11: 26: 02 CST 2017,
+								AttachmentId: eni - attach - da80fa18,
+								DeleteOnTermination: true,
+								DeviceIndex: 0,
+								Status: attached
+							},
+							Description: ,
+							Groups: [{
+									GroupName: CMS FTP for SSA,
+									GroupId: sg - 58ac162a
+								}
+							],
+							Ipv6Addresses: [],
+							MacAddress: 0e: 18: f9: 51: 4f: 0c,
+							NetworkInterfaceId: eni - a3c70714,
+							OwnerId: 325880643273,
+							PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+							PrivateIpAddress: 172.31.45.252,
+							PrivateIpAddresses: [{
+									Association: {
+										IpOwnerId: 325880643273,
+										PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+										PublicIp: 34.200.32.232
+									},
+									Primary: true,
+									PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+									PrivateIpAddress: 172.31.45.252
+								}
+							],
+							SourceDestCheck: true,
+							Status: in - use,
+							SubnetId: subnet - b19e47eb,
+							VpcId: vpc - bdaa71c4
+						}
+					],
+					RootDeviceName: /dev/xvda,
+					RootDeviceType: ebs,
+					SecurityGroups: [{
+							GroupName: CMS FTP for SSA,
+							GroupId: sg - 58ac162a
+						}
+					],
+					SourceDestCheck: true,
+					Tags: [{
+							Key: Description,
+							Value: FTP server for SSA,
+							connecting to S3 storage.Need to turn on all the time.
+						}, {
+							Key: Owner,
+							Value: Ben Yue
+						}, {
+							Key: Name,
+							Value: FTP for SSA
+						}
+					],
+					VirtualizationType: hvm
+				}
+			],
+			OwnerId: 325880643273,
+			ReservationId: r - 0ae09d74cd622be71,
+			GroupNames: []
+		},
+		{
+			Groups: [],
+			Instances: [{
+					AmiLaunchIndex: 0,
+					ImageId: ami - 8c1be5f6,
+					InstanceId: i - 2b2e862a43b4f5715,
+					InstanceType: t2.medium,
+					KeyName: CMSADMIN,
+					LaunchTime: Thu May 03 15: 53: 08 CST 2018,
+					Monitoring: {
+						State: disabled
+					},
+					Placement: {
+						AvailabilityZone: us - east - 1b,
+						GroupName: ,
+						Tenancy: default ,
+					},
+					PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+					PrivateIpAddress: 172.31.45.252,
+					ProductCodes: [],
+					PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+					PublicIpAddress: 34.200.32.234,
+					State: {
+						Code: 16,
+						Name: running
+					},
+					StateTransitionReason: ,
+					SubnetId: subnet - b19e47eb,
+					VpcId: vpc - bdaa71c4,
+					Architecture: x86_64,
+					BlockDeviceMappings: [{
+							DeviceName: /dev/xvda,
+							Ebs: {
+								AttachTime: Wed Oct 18 14: 01: 20 CST 2017,
+								DeleteOnTermination: false,
+								Status: attached,
+								VolumeId: vol - 04d4ffd9c45fa2a91
+							}
+						}
+					],
+					ClientToken: idhWB1508297161685,
+					EbsOptimized: false,
+					EnaSupport: true,
+					Hypervisor: xen,
+					ElasticGpuAssociations: [],
+					NetworkInterfaces: [{
+							Association: {
+								IpOwnerId: 325880643273,
+								PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+								PublicIp: 34.200.32.232
+							},
+							Attachment: {
+								AttachTime: Wed Oct 18 11: 26: 02 CST 2017,
+								AttachmentId: eni - attach - da80fa18,
+								DeleteOnTermination: true,
+								DeviceIndex: 0,
+								Status: attached
+							},
+							Description: ,
+							Groups: [{
+									GroupName: CMS FTP for SSA,
+									GroupId: sg - 58ac162a
+								}
+							],
+							Ipv6Addresses: [],
+							MacAddress: 0e: 18: f9: 51: 4f: 0c,
+							NetworkInterfaceId: eni - a3c70714,
+							OwnerId: 325880643273,
+							PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+							PrivateIpAddress: 172.31.45.252,
+							PrivateIpAddresses: [{
+									Association: {
+										IpOwnerId: 325880643273,
+										PublicDnsName: ec2 - 34 - 200 - 32 - 232.compute - 1.amazonaws.com,
+										PublicIp: 34.200.32.232
+									},
+									Primary: true,
+									PrivateDnsName: ip - 172 - 31 - 45 - 252.ec2.internal,
+									PrivateIpAddress: 172.31.45.252
+								}
+							],
+							SourceDestCheck: true,
+							Status: in - use,
+							SubnetId: subnet - b19e47eb,
+							VpcId: vpc - bdaa71c4
+						}
+					],
+					RootDeviceName: /dev/xvda,
+					RootDeviceType: ebs,
+					SecurityGroups: [{
+							GroupName: CMS FTP for SSA,
+							GroupId: sg - 58ac162a
+						}
+					],
+					SourceDestCheck: true,
+					Tags: [{
+							Key: Description,
+							Value: FTP server for SSA,
+							connecting to S3 storage.Need to turn on all the time.
+						}, {
+							Key: Owner,
+							Value: Ben Yue
+						}, {
+							Key: Name,
+							Value: FTP for SSA
+						}
+					],
+					VirtualizationType: hvm
+				}
+			],
+			OwnerId: 325880643273,
+			ReservationId: r - 0ae09d74cd622be71,
+			GroupNames: []
+		}
+	],
+}
